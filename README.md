@@ -36,15 +36,22 @@
    - 記錄最近產生與掃描的內容，方便隨時重新取用。
    - 完美支援桌機與行動裝置，並提供舒適的深色（Dark Mode）與淺色（Light Mode）主題切換。
 
-## 🚀 部署方式
+## 🌐 線上展示 (Demo)
 
-本專案為純前端單頁應用（SPA），無需後端伺服器即可直接部署：
+- **GitHub Pages 預覽**：[https://yaoshuchin.github.io/qrcode-toolbox/](https://yaoshuchin.github.io/qrcode-toolbox/)
 
-### Netlify 部署
-1. 登入 [Netlify](https://app.netlify.com/)
+## 🚀 部署至 Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yaoshuchin/qrcode-toolbox)
+
+### 方式一：一鍵按鈕部署（最簡單）
+直接點擊上方 **Deploy to Netlify** 按鈕，登入後即可一鍵自動在 Netlify 完成建立與部署！
+
+### 方式二：手動匯入 GitHub 倉庫
+1. 登入 [Netlify 控制台](https://app.netlify.com/)
 2. 點擊 **Add new site** -> **Import an existing project**
-3. 選擇 **GitHub** 並授權存取本倉庫 `yaoshuchin/qrcode-toolbox`
-4. 保持預設設定（無需構建指令，Publish directory 為根目錄），點擊 **Deploy site** 即刻上線！
+3. 選擇 **GitHub**，選取 `yaoshuchin/qrcode-toolbox`
+4. 點擊 **Deploy qrcode-toolbox** 即可完成！持續連動 GitHub，往後只要 git push 就會自動更新。
 
 ---
 
